@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 20px;
+}
+#foodImage{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    display: none;
+}
+#orderId{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #ff6600;
+    display: none;
+}
